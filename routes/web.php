@@ -17,10 +17,6 @@ Route::get('/create', function () {
     return view('welcome');
 });
 
-Route::get('/register', function() {
+Route::get('/register', function () {
     return view('login');
 });
-
-Route::post("register","LoginController@register");
-
-
